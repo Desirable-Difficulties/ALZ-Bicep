@@ -18,7 +18,7 @@
       "value": false
     },
     "parLogAnalyticsWorkspaceResourceId": {
-      "value": "/subscriptions/f8cc2050-ec40-44bc-bf1c-7224c8da76fe/resourcegroups/DD-logging/providers/microsoft.operationalinsights/workspaces/DD-log-analytics"
+      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourcegroups/alz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
     },
     "parDiagnosticSettingsName": {
       "value": "toLa"
