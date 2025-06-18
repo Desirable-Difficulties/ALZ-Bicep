@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parLogAnalyticsWorkspaceName": {
-      "value": "alz-log-analytics"
+      "value": "DD-log-analytics"
     },
     "parLogAnalyticsWorkspaceLocation": {
       "value": "eastus"
@@ -24,16 +24,16 @@
       ]
     },
     "parDataCollectionRuleVMInsightsName": {
-      "value": "alz-ama-vmi-dcr"
+      "value": "DD-ama-vmi-dcr"
     },
     "parDataCollectionRuleChangeTrackingName": {
-      "value": "alz-ama-ct-dcr"
+      "value": "DD-ama-ct-dcr"
     },
     "parDataCollectionRuleMDFCSQLName": {
-      "value": "alz-ama-mdfcsql-dcr"
+      "value": "DD-ama-mdfcsql-dcr"
     },
     "parUserAssignedManagedIdentityName": {
-      "value": "alz-umi-identity"
+      "value": "DD-umi-identity"
     },
     "parUserAssignedManagedIdentityLocation": {
       "value": "eastus"
@@ -45,7 +45,7 @@
       "value": false
     },
     "parAutomationAccountName": {
-      "value": "alz-automation-account"
+      "value": "DD-automation-account"
     },
     "parAutomationAccountLocation": {
       "value": "eastus2"
@@ -80,49 +80,49 @@
     "parGlobalResourceLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parAutomationAccountLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parLogAnalyticsWorkspaceLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parDataCollectionRuleVMInsightsLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parDataCollectionRuleChangeTrackingLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parDataCollectionRuleMDFCSQLLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parSecurityInsightsOnboardingLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     },
     "parChangeTrackingSolutionLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Logging Module."
+        "notes": "This lock was created by the DD Bicep Logging Module."
       }
     }
   }
